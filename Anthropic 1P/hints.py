@@ -1,49 +1,49 @@
-exercise_1_1_hint = """The grading function in this exercise is looking for an answer that contains the exact Arabic numerals "1", "2", and "3".
-You can often get Claude to do what you want simply by asking."""
+exercise_1_1_hint = """La fonction de correction de cet exercice attend une réponse contenant exactement les chiffres arabes "1", "2" et "3".
+Vous obtiendrez souvent ce que vous voulez de Claude simplement en le lui demandant."""
 
-exercise_1_2_hint = """The grading function in this exercise is looking for answers that contain "soo" or "giggles".
-There are many ways to solve this, just by asking!"""
+exercise_1_2_hint = """La fonction de correction de cet exercice attend une réponse contenant "soo" ou "giggles" (réponse en anglais).
+Il existe de nombreuses façons de résoudre cet exercice, simplement en le demandant !"""
 
-exercise_2_1_hint ="""The grading function in this exercise is looking for any answer that includes the word "hola".
-Ask Claude to reply in Spanish like you would when speaking with a human. It's that simple!"""
+exercise_2_1_hint ="""La fonction de correction de cet exercice attend une réponse contenant le mot "hola".
+Demandez à Claude de répondre en espagnol comme vous le demanderiez à une personne. C'est aussi simple que cela !"""
 
-exercise_2_2_hint = """The grading function in this exercise is looking for EXACTLY "Michael Jordan".
-How would you ask another human to do this? Reply with no other words? Reply with only the name and nothing else? There are several ways to approach this answer."""
+exercise_2_2_hint = """La fonction de correction de cet exercice attend EXACTEMENT "Michael Jordan".
+Comment le demanderiez-vous à une personne ? Répondre sans aucun autre mot ? Répondre uniquement par le nom, rien d'autre ? Il y a plusieurs façons d'aborder la réponse."""
 
-exercise_2_3_hint = """The grading function in this cell is looking for a response that is equal to or greater than 800 words.
-Because LLMs aren't great at counting words yet, you may have to overshoot your target."""
+exercise_2_3_hint = """La fonction de correction de cette cellule attend une réponse d'au moins 800 mots.
+Les LLM ne savent pas encore bien compter les mots : vous devrez peut-être viser plus haut que l'objectif."""
 
-exercise_3_1_hint = """The grading function in this exercise is looking for an answer that includes the words "incorrect" or "not correct".
-Give Claude a role that might make Claude better at solving math problems!"""
+exercise_3_1_hint = """La fonction de correction de cet exercice attend une réponse contenant les mots "incorrect" ou "not correct" (réponse en anglais).
+Donnez à Claude un rôle qui pourrait l'aider à mieux résoudre les problèmes de mathématiques !"""
 
-exercise_4_1_hint = """The grading function in this exercise is looking for a solution that includes the words "haiku" and "pig".
-Don't forget to include the exact phrase "{TOPIC}" wherever you want the topic to be substituted in. Changing the "TOPIC" variable value should make Claude write a haiku about a different topic."""
+exercise_4_1_hint = """La fonction de correction de cet exercice attend une réponse contenant les mots "haiku" et "pig" (réponse en anglais).
+N'oubliez pas d'écrire exactement "{TOPIC}" à l'endroit où le sujet doit être inséré. Si vous changez la valeur de la variable "TOPIC", Claude doit écrire un haïku sur un autre sujet."""
 
-exercise_4_2_hint = """The grading function in this exercise is looking for a response that includes the word "brown".
-If you surround "{QUESTION}" in XML tags, how does that change Claude's response?"""
+exercise_4_2_hint = """La fonction de correction de cet exercice attend une réponse contenant le mot "brown".
+Si vous entourez "{QUESTION}" de balises XML, comment la réponse de Claude change-t-elle ?"""
 
-exercise_4_3_hint = """The grading function in this exercise is looking for a response that includes the word "brown".
-Try removing one word or section of characters at a time, starting with the parts that make the least sense. Doing this one word at a time will also help you see just how much Claude can or can't parse and understand."""
+exercise_4_3_hint = """La fonction de correction de cet exercice attend une réponse contenant le mot "brown".
+Essayez de supprimer un mot ou un groupe de caractères à la fois, en commençant par les parties les moins compréhensibles. Procéder mot par mot vous montrera aussi jusqu'où Claude sait analyser et comprendre un texte."""
 
-exercise_5_1_hint = """The grading function for this exercise is looking for a response that includes the word "Warrior".
-Write more words in Claude's voice to steer Claude to act the way you want it to. For instance, instead of "Stephen Curry is the best because," you could write "Stephen Curry is the best and here are three reasons why. 1:"""
+exercise_5_1_hint = """La fonction de correction de cet exercice attend une réponse contenant le mot "Warrior".
+Écrivez davantage de mots à la place de Claude pour l'orienter dans la direction voulue. Par exemple, au lieu de "Stephen Curry is the best because," vous pouvez écrire "Stephen Curry is the best and here are three reasons why. 1:"."""
 
-exercise_5_2_hint = """The grading function looks for a response of over 5 lines in length that includes the words "cat" and "<haiku>".
-Start simple. Currently, the prompt asks Claude for one haiku. You can change that and ask for two (or even more). Then if you run into formatting issues, change your prompt to fix that after you've already gotten Claude to write more than one haiku."""
+exercise_5_2_hint = """La fonction de correction attend une réponse de plus de 5 lignes contenant les mots "cat" et "<haiku>".
+Commencez simplement. Pour l'instant, le prompt demande un seul haïku à Claude. Modifiez-le pour en demander deux (ou plus). Si vous rencontrez ensuite des problèmes de format, corrigez votre prompt une fois que Claude écrit bien plusieurs haïkus."""
 
-exercise_5_3_hint = """The grading function in this exercise is looking for a response that contains the words "tail", "cat", and "<haiku>".
-It's helpful to break this exercise down to several steps.								
-1.	Modify the initial prompt template so that Claude writes two poems.							
-2.	Give Claude indicators as to what the poems will be about, but instead of writing in the subjects directly (e.g., dog, cat, etc.), replace those subjects with the keywords "{ANIMAL1}" and "{ANIMAL2}".							
-3.	Run the prompt and make sure that the full prompt with variable substitutions has all the words correctly substituted. If not, check to make sure your {bracket} tags are spelled correctly and formatted correctly with single moustache brackets."""
+exercise_5_3_hint = """La fonction de correction de cet exercice attend une réponse contenant les mots "tail", "cat" et "<haiku>".
+Il est utile de découper cet exercice en plusieurs étapes.
+1.	Modifiez le modèle de prompt initial pour que Claude écrive deux poèmes.
+2.	Indiquez à Claude le sujet des poèmes, mais au lieu d'écrire directement les sujets (chien, chat, etc.), remplacez-les par les mots-clés "{ANIMAL1}" et "{ANIMAL2}".
+3.	Exécutez le prompt et vérifiez que, dans le prompt complet, toutes les variables ont bien été remplacées. Sinon, vérifiez l'orthographe de vos balises {accolades} et qu'elles utilisent bien des accolades simples."""
 
-exercise_6_1_hint = """The grading function in this exercise is looking for the correct categorization letter + the closing parentheses and the first letter of the name of the category, such as "C) B" or "B) B" etc.
-Let's take this exercise step by step:										
-1.	How will Claude know what categories you want to use? Tell it! Include the four categories you want directly in the prompt. Be sure to include the parenthetical letters as well for easy classification. Feel free to use XML tags to organize your prompt and make clear to Claude where the categories begin and end.									
-2.	Try to cut down on superfluous text so that Claude immediately answers with the classification and ONLY the classification. There are several ways to do this, from speaking for Claude (providing anything from the beginning of the sentence to a single open parenthesis so that Claude knows you want the parenthetical letter as the first part of the answer) to telling Claude that you want the classification and only the classification, skipping the preamble.
-Refer to Chapters 2 and 5 if you want a refresher on these techniques.							
-3.	Claude may still be incorrectly categorizing or not including the names of the categories when it answers. Fix this by telling Claude to include the full category name in its answer.)								
-4.	Be sure that you still have {email} somewhere in your prompt template so that we can properly substitute in emails for Claude to evaluate."""
+exercise_6_1_hint = """La fonction de correction de cet exercice attend la lettre de la bonne catégorie, suivie de la parenthèse fermante et de la première lettre du nom anglais de la catégorie, par exemple "C) B" ou "B) B".
+Procédons étape par étape :
+1.	Comment Claude saura-t-il quelles catégories utiliser ? Dites-le-lui ! Incluez les quatre catégories directement dans le prompt, avec leurs lettres entre parenthèses pour faciliter la classification. N'hésitez pas à utiliser des balises XML pour organiser le prompt et montrer à Claude où commencent et finissent les catégories.
+2.	Réduisez le texte superflu pour que Claude réponde immédiatement par la catégorie, et UNIQUEMENT la catégorie. Plusieurs façons de faire : parler à la place de Claude (en fournissant le début de la phrase, voire une simple parenthèse ouvrante pour qu'il comprenne que la lettre entre parenthèses doit venir en premier), ou lui dire que vous voulez la catégorie et seulement la catégorie, sans préambule.
+Reportez-vous aux chapitres 2 et 5 pour revoir ces techniques.
+3.	Claude peut encore se tromper de catégorie ou omettre le nom de la catégorie. Corrigez cela en lui demandant d'inclure le nom complet de la catégorie dans sa réponse.
+4.	Vérifiez que {email} figure toujours quelque part dans votre modèle de prompt, pour que les e-mails à évaluer puissent y être insérés."""
 
 exercise_6_1_solution = """
 USER TURN
@@ -62,13 +62,13 @@ ASSISTANT TURN
 (
 """
 
-exercise_6_2_hint = """The grading function in this exercise is looking for only the correct letter wrapped in <answer> tags, such as "<answer>B</answer>". The correct categorization letters are the same as in the above exercise.
-Sometimes the simplest way to go about this is to give Claude an example of how you want its output to look. Just don't forget to wrap your example in <example></example> tags! And don't forget that if you prefill Claude's response with anything, Claude won't actually output that as part of its response."""
+exercise_6_2_hint = """La fonction de correction de cet exercice attend uniquement la bonne lettre entre balises <answer>, par exemple "<answer>B</answer>". Les lettres correctes sont les mêmes que dans l'exercice précédent.
+Le plus simple est parfois de donner à Claude un exemple de la sortie attendue. N'oubliez pas d'entourer votre exemple de balises <example></example> ! Et rappelez-vous que si vous pré-remplissez la réponse de Claude, ce texte ne fera pas partie de la réponse qu'il renvoie."""
 
-exercise_7_1_hint = """You're going to have to write some example emails and classify them for Claude (with the exact formatting you want). There are multiple ways to do this. Here are some guidelines below.										
-1.	Try to have at least two example emails. Claude doesn't need an example for all categories, and the examples don't have to be long. It's more helpful to have examples for whatever you think the trickier categories are (which you were asked to think about at the bottom of Chapter 6 Exercise 1). XML tags will help you separate out your examples from the rest of your prompt, although it's unnecessary.									
-2.	Make sure your example answer formatting is exactly the format you want Claude to use, so Claude can emulate the format as well. This format should make it so that Claude's answer ends in the letter of the category. Wherever you put the {email} placeholder, make sure that it's formatted exactly like your example emails.									
-3.	Make sure you still have the categories listed within the prompt itself, otherwise Claude won't know what categories to reference, as well as {email} as a placeholder for substitution."""
+exercise_7_1_hint = """Vous allez devoir écrire quelques exemples d'e-mails et les classer pour Claude (avec exactement le format voulu). Il y a plusieurs façons de faire. Voici quelques conseils.
+1.	Prévoyez au moins deux exemples d'e-mails. Claude n'a pas besoin d'un exemple par catégorie, et les exemples peuvent être courts. Il est plus utile de donner des exemples pour les catégories que vous jugez les plus délicates (celles auxquelles vous avez réfléchi à la fin de l'exercice 1 du chapitre 6). Les balises XML aident à séparer les exemples du reste du prompt, sans être indispensables.
+2.	Le format de vos exemples de réponse doit être exactement celui que Claude doit utiliser, pour qu'il puisse l'imiter. Ce format doit faire en sorte que la réponse de Claude se termine par la lettre de la catégorie. Là où vous placez la variable {email}, formatez-la exactement comme vos exemples d'e-mails.
+3.	Gardez la liste des catégories dans le prompt, sinon Claude ne saura pas à quelles catégories se référer, ainsi que {email} comme variable de substitution."""
 
 exercise_7_1_solution = """
 USER TURN
@@ -97,11 +97,11 @@ Here is the email for you to categorize: {email}
 ASSISTANT TURN
 The correct category is:
 """
-exercise_8_1_hint = """The grading function in this exercise is looking for a response that contains the phrase "I do not", "I don't", or "Unfortunately".
-What should Claude do if it doesn't know the answer?"""
+exercise_8_1_hint = """La fonction de correction de cet exercice attend une réponse contenant "I do not", "I don't" ou "Unfortunately" (réponse en anglais).
+Que doit faire Claude s'il ne connaît pas la réponse ?"""
 
-exercise_8_2_hint = """The grading function in this exercise is looking for a response that contains the phrase "49-fold".
-Make Claude show its work and thought process first by extracting relevant quotes and seeing whether or not the quotes provide sufficient evidence. Refer back to the Chapter 8 Lesson if you want a refresher."""
+exercise_8_2_hint = """La fonction de correction de cet exercice attend une réponse contenant l'expression "49-fold".
+Faites d'abord montrer à Claude son travail et son raisonnement : qu'il extraie les citations pertinentes et vérifie si elles suffisent à répondre. Reportez-vous au cours du chapitre 8 pour revoir la méthode."""
 
 exercise_9_1_solution = """
 You are a master tax acountant. Your task is to answer user questions using any provided reference documentation.
